@@ -1,0 +1,7 @@
+# Dependências principais do Streamlit
+streamlit
+pandas
+
+# Para a criação e exibição do mapa
+folium
+streamlit-folium
