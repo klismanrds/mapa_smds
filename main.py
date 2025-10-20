@@ -10,7 +10,7 @@ import numpy as np # Adicionado por segurança, embora pandas já o importe
 # ----------------------------------------------------
 
 st.set_page_config(
-    page_title="Mapa Unidades Sedese - Uberlândia-MG", 
+    page_title="Mapa Unidades SMDS - Uberlândia-MG", 
     layout="wide"
 )
 
@@ -77,7 +77,7 @@ df = load_and_process_data()
 # ----------------------------------------------------
 
 # Layout para a aplicação - SEM CSS FIXO!
-st.title("Unidades Sedese de Uberlândia - MG")
+st.title("Unidades SMDS de Uberlândia - MG")
 st.markdown("---") # Linha divisória simples
 
 if df.empty:
